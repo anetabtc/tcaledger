@@ -1,5 +1,7 @@
 # tcaledger
-PVE with tcaledger app for payments and simulation of payment requests.
+PVE with tcaledger app for payments and simulation of payment requests. 
+
+The purpose of this API is to empower users to accept cryptocurrencies in a decentralized, non-custodial manner to help strive for mass adoption.
 
 This application, made using the Django framework, has the functionality of receiving and processing post and get requests, to ensure that orders are accepted and placed in the database, as well as to verify the success of the payment process.
 
