@@ -1,0 +1,16 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <p>PAGE-1 OF THE TEMPLATE</p>
+    <form action="http://127.0.0.1:8000/purchase/page2/" method="post">
+      {% csrf_token %}
+      <input type="text" name="firstName" placeholder="FIRST NAME" ><br><br>
+      <input type="text" name="lastName" placeholder="LAST NAME" ><br><br>
+      <input type="email" name="email" placeholder="EMAIL" ><br><br>
+      <input type="text" name="walletAddress" placeholder="WALLET ADDRESS" ><br><br>
+      <input type="text" name="streetAddress" placeholder="STREET ADDRESS" ><br><br>
+      <input type="submit" id="pay" value="PAY">
+    </form>
+  </body>
+</html>
